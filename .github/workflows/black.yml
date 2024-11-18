@@ -17,6 +17,6 @@ jobs:
           pip install black
           pip install pre-commit
       - name: Run black
-        run: python -m black
+        run: black $(git ls-files '*.py')
       - name: Check file
         run: cat main.py
