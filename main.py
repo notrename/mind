@@ -1,7 +1,7 @@
-print('hello')
+print("hello")
 
-e = ['10',
-     12.2,
-
-     'tqwt',
-     ]
+e = [
+    "10",
+    12.2,
+    "tqwt",
+]
