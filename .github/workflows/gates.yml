@@ -16,6 +16,7 @@ jobs:
 
   tests:
     runs-on: ubuntu-latest
+    needs: lint
     steps:
       - name: Checkout reposityory
         uses: actions/checkout@v4
